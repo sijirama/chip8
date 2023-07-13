@@ -1,4 +1,53 @@
-canvas {
-    border: 2px solid black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html{
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    height: 80%;
+    width: 50%;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+marquee{
+    font-size: 3rem;
+}
+
+body{
+    display: flex;
+    flex-direction: cols;
+    justify-content: center;
+    align-items: center;
+
+    height: 95%;
+    font: 1.3rem Inconsolata, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+
+    background-color: black;
+    background-image: url(/assets/bg.png);
+    background-size:cover;
+    background-position: center;
+
+}
+
+canvas {
+    background-color: white;
+    z-index: 20;
+    border: 1px solid black;
+}
+
 

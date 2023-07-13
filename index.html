@@ -2,10 +2,34 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="typo.css">
     </head>
     <body>
-        <canvas></canvas>
-
+        <!-- 
+        -->
+        <div class="container">
+            <p class="atari">CHIP8 2600</p>
+            <canvas></canvas>
+            <img class="blk1" />
+            <img class="blk2" />
+            <img class="blk3" />
+            <!-- <h3 class="dreams">Dreams</h3> -->
+            <marquee>
+                <img class="blk4" src="assets/darkside.gif" />
+                <img class="blk5" src="assets/smoke.gif" />
+                <img class="blk6" src="assets/fuckyou.gif"/>
+                <img class="blk7" src="assets/darkweb.gif" />
+                <img class="blk8" src="assets/siji.gif"/>
+                <img class="blk9" src="assets/crash.gif"/>
+                <img class="blk10" />
+                <img class="blk11" />
+            </marquee>
+            <marquee 
+                scrolldelay = 20
+            >
+            <p class="crt">Come for the nostalgia, stay for the vertigo-inducing jiggle effect. Can be used in a more artistic / less queasy way without the animation. Works best on large blocky text.</p>
+            </marquee>
+        </div>
         <script type="module" src="scripts/chip8.js"></script>
     </body>
 </html>
